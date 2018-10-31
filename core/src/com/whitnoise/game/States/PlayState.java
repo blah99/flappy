@@ -89,7 +89,6 @@ public class PlayState extends State {
             sb.draw(Tube.getTopTube(), tube.getPosTopTube().x, tube.getPosTopTube().y);
             sb.draw(Tube.getBottomTube(), tube.getPosBotTube().x, tube.getPosBotTube().y);
         }
-
         sb.draw(ground, groundPos1.x, groundPos1.y);
         sb.draw(ground, groundPos2.x, groundPos2.y);
 
